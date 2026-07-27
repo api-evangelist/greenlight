@@ -1,0 +1,17 @@
+generated: '2026-07-19'
+method: searched
+source: https://trust.greenlight.com/
+note: >-
+  Greenlight publishes no public API specification; these are the security and
+  compliance frameworks the company attests to on its SafeBase trust center.
+standards:
+- id: soc2-type2
+  conforms: true
+  evidence: SOC 2 Type 2 report listed on https://trust.greenlight.com/
+- id: pci-dss
+  conforms: true
+  version: 4.0.1
+  evidence: PCI DSS v4.0.1 attestation listed on trust center
+- id: nist-csf
+  conforms: true
+  evidence: NIST Cybersecurity Framework alignment stated on trust center

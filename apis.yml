@@ -1,8 +1,27 @@
 aid: greenlight
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/greenlight.png
 name: Greenlight
-description: Greenlight is a company surfaced as a portfolio company of a16z, bond-capital and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Greenlight is a family-focused financial technology company offering a debit
+  card and mobile banking app built for parents, kids, and teens. The platform
+  pairs parental controls, allowance and chore automation, savings goals, and
+  investing (from $1) with financial-literacy education. Greenlight is a
+  financial technology company, not a bank; banking services are provided
+  through partner banks such as Community Federal Savings Bank. It is backed by
+  a16z and Bond Capital. Greenlight publishes no public developer API or
+  developer portal; this profile captures the company's public identity,
+  security/compliance posture, and trust surface.
 url: https://raw.githubusercontent.com/api-evangelist/greenlight/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Fintech
+- Family Finance
+- Banking
+- Debit Cards
+- Kids Banking
+- Investing
+- Financial Literacy
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +50,31 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://greenlightcard.com
+  url: https://greenlight.com
+- type: Blog
+  url: https://greenlight.com/blog
+- type: Pricing
+  url: https://greenlight.com/plans
+- type: Support
+  url: https://help.greenlight.com/hc/en-us
+- type: TermsOfService
+  url: https://greenlight.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://privacy.greenlight.com/policies
+- type: TrustCenter
+  url: security/greenlight-trust-center.yml
+- type: Compliance
+  url: https://trust.greenlight.com/
+- type: Conformance
+  url: conformance/greenlight-conformance.yml
+- type: VulnerabilityDisclosure
+  url: security/greenlight-vulnerability-disclosure.yml
+- type: Security
+  url: https://trust.greenlight.com/
+- type: DomainSecurity
+  url: security/greenlight-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
