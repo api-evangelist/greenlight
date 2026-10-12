@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/greenlight/integrations
+- https://n8n.io/integrations/greenlight/
+- https://composio.dev/toolkits/greenlight
+- https://monid.ai/tools/greenlight
+checked:
+- https://composio.dev/toolkits/greenlight
+- https://monid.ai/tools/greenlight
+- https://n8n.io/integrations/greenlight/
+- https://zapier.com/apps/greenlight/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
