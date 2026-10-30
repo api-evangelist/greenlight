@@ -64,6 +64,88 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Greenlight is a company surfaced as a portfolio company of a16z, bond-capital and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Greenlight is a family-focused financial technology company offering a debit card and mobile banking app built for parents, kids, and teens. The platform pairs parental controls, allowance and chore automation, savings goals, and investing (from $1) with financial-literacy education. Greenlight is a financial technology company, not a bank; banking services are provided through partner banks such as Community Federal Savings Bank. It is backed by a16z and Bond Capital. Greenlight publishes no public developer API or developer portal; this profile captures the company's public identity, security/compliance posture, and trust surface.
 
-Backed by: a16z, bond-capital — https://greenlightcard.com
+**Areas:** Company · Fintech · Family Finance · Banking · Debit Cards · Kids Banking · Investing · Financial Literacy
+
+## Greenlight on APIs.io
+
+Everything profiled for Greenlight is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/greenlight/](https://apis.io/providers/greenlight/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Greenlight Domain Security](https://apis.io/security/greenlight/greenlight-domain-security/)
+- [Greenlight Trust Center](https://apis.io/security/greenlight/greenlight-trust-center/)
+- [Greenlight Vulnerability Disclosure](https://apis.io/security/greenlight/greenlight-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://greenlight.com)
+- [Pricing](https://greenlight.com/plans)
+- [Support](https://help.greenlight.com/hc/en-us)
+- [Blog](https://greenlight.com/blog)
+- [Security](https://trust.greenlight.com/)
+- [Compliance](https://trust.greenlight.com/)
+- [Terms of service](https://greenlight.com/terms-of-service)
+- [Privacy policy](https://privacy.greenlight.com/policies)
+
+## API Evangelist rating
+
+**Kin Score 17.2** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 36.8 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 20.5** — Banking & Open Finance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/greenlight/](https://apis.io/providers/greenlight/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Greenlight: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/greenlight/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
